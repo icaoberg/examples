@@ -30,3 +30,4 @@ EOF
 
 singularity exec --nv /containers/images/u1604-cuda-9.1_pytorch.img bash ./script.sh
 
+rm -fv ./script.sh
